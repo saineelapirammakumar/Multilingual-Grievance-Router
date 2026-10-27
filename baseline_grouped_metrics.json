@@ -1,0 +1,824 @@
+{
+  "support": 22,
+  "department_micro_precision": 0.72,
+  "department_micro_recall": 0.72,
+  "department_micro_f1": 0.72,
+  "department_macro_precision": 0.5533333333333333,
+  "department_macro_recall": 0.633846153846154,
+  "department_macro_f1": 0.5288336783988957,
+  "department_exact_match_accuracy": 0.5909090909090909,
+  "department_hamming_loss": 0.12727272727272726,
+  "learned": {
+    "urgency_report": {
+      "Routine": {
+        "precision": 0.21428571428571427,
+        "recall": 1.0,
+        "f1-score": 0.35294117647058826,
+        "support": 3.0
+      },
+      "Urgent": {
+        "precision": 0.75,
+        "recall": 0.21428571428571427,
+        "f1-score": 0.3333333333333333,
+        "support": 14.0
+      },
+      "Emergency": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1-score": 0.6666666666666666,
+        "support": 5.0
+      },
+      "accuracy": 0.4090909090909091,
+      "macro avg": {
+        "precision": 0.5714285714285715,
+        "recall": 0.6047619047619047,
+        "f1-score": 0.45098039215686275,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.676948051948052,
+        "recall": 0.4090909090909091,
+        "f1-score": 0.4117647058823529,
+        "support": 22.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        10,
+        3,
+        1
+      ],
+      [
+        1,
+        1,
+        3
+      ]
+    ],
+    "emergency_recall": 0.6
+  },
+  "with_safety_rules": {
+    "urgency_report": {
+      "Routine": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1-score": 0.4,
+        "support": 3.0
+      },
+      "Urgent": {
+        "precision": 0.6666666666666666,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.4,
+        "support": 14.0
+      },
+      "Emergency": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1-score": 0.6666666666666666,
+        "support": 5.0
+      },
+      "accuracy": 0.45454545454545453,
+      "macro avg": {
+        "precision": 0.5555555555555555,
+        "recall": 0.6285714285714286,
+        "f1-score": 0.48888888888888893,
+        "support": 22.0
+      },
+      "weighted avg": {
+        "precision": 0.6287878787878788,
+        "recall": 0.45454545454545453,
+        "f1-score": 0.4606060606060606,
+        "support": 22.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        9,
+        4,
+        1
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "emergency_recall": 0.6
+  },
+  "language_identification_report": {
+    "English": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13.0
+    },
+    "Hinglish": {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1-score": 0.75,
+      "support": 5.0
+    },
+    "Mixed": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Tamil": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "Tanglish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 0.9090909090909091,
+    "macro avg": {
+      "precision": 0.8,
+      "recall": 0.72,
+      "f1-score": 0.75,
+      "support": 22.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9431818181818182,
+      "support": 22.0
+    }
+  },
+  "department_policy": "threshold 0.5; tentative top-label fallback with recognized vocabulary; human review below 0.65",
+  "missing_language_evaluations": [
+    "Hindi"
+  ],
+  "language_wise": {
+    "English": {
+      "support": 13,
+      "department_micro_precision": 0.6666666666666666,
+      "department_micro_recall": 0.625,
+      "department_micro_f1": 0.6451612903225806,
+      "department_macro_precision": 0.5733333333333334,
+      "department_macro_recall": 0.55,
+      "department_macro_f1": 0.48571428571428565,
+      "department_exact_match_accuracy": 0.46153846153846156,
+      "department_hamming_loss": 0.16923076923076924,
+      "learned": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1-score": 0.4,
+            "support": 2.0
+          },
+          "Urgent": {
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "f1-score": 0.25,
+            "support": 7.0
+          },
+          "Emergency": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1-score": 0.75,
+            "support": 4.0
+          },
+          "accuracy": 0.46153846153846156,
+          "macro avg": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6309523809523809,
+            "f1-score": 0.4666666666666666,
+            "support": 13.0
+          },
+          "weighted avg": {
+            "precision": 0.8076923076923077,
+            "recall": 0.46153846153846156,
+            "f1-score": 0.4269230769230769,
+            "support": 13.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            3
+          ]
+        ],
+        "emergency_recall": 0.75
+      },
+      "with_safety_rules": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.2857142857142857,
+            "recall": 1.0,
+            "f1-score": 0.4444444444444444,
+            "support": 2.0
+          },
+          "Urgent": {
+            "precision": 0.5,
+            "recall": 0.14285714285714285,
+            "f1-score": 0.2222222222222222,
+            "support": 7.0
+          },
+          "Emergency": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1-score": 0.75,
+            "support": 4.0
+          },
+          "accuracy": 0.46153846153846156,
+          "macro avg": {
+            "precision": 0.5119047619047619,
+            "recall": 0.6309523809523809,
+            "f1-score": 0.47222222222222215,
+            "support": 13.0
+          },
+          "weighted avg": {
+            "precision": 0.5439560439560439,
+            "recall": 0.46153846153846156,
+            "f1-score": 0.4188034188034188,
+            "support": 13.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "emergency_recall": 0.75
+      }
+    },
+    "Hinglish": {
+      "support": 5,
+      "department_micro_precision": 0.6666666666666666,
+      "department_micro_recall": 0.8,
+      "department_micro_f1": 0.7272727272727273,
+      "department_macro_precision": 0.5,
+      "department_macro_recall": 0.5333333333333333,
+      "department_macro_f1": 0.49333333333333335,
+      "department_exact_match_accuracy": 0.6,
+      "department_hamming_loss": 0.12,
+      "learned": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1-score": 0.5,
+            "support": 1.0
+          },
+          "Urgent": {
+            "precision": 0.5,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4,
+            "support": 3.0
+          },
+          "Emergency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "accuracy": 0.4,
+          "macro avg": {
+            "precision": 0.27777777777777773,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.3,
+            "support": 5.0
+          },
+          "weighted avg": {
+            "precision": 0.36666666666666664,
+            "recall": 0.4,
+            "f1-score": 0.34,
+            "support": 5.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "emergency_recall": 0.0
+      },
+      "with_safety_rules": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1-score": 0.5,
+            "support": 1.0
+          },
+          "Urgent": {
+            "precision": 0.5,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4,
+            "support": 3.0
+          },
+          "Emergency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1.0
+          },
+          "accuracy": 0.4,
+          "macro avg": {
+            "precision": 0.27777777777777773,
+            "recall": 0.4444444444444444,
+            "f1-score": 0.3,
+            "support": 5.0
+          },
+          "weighted avg": {
+            "precision": 0.36666666666666664,
+            "recall": 0.4,
+            "f1-score": 0.34,
+            "support": 5.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "emergency_recall": 0.0
+      }
+    },
+    "Tamil": {
+      "support": 2,
+      "department_micro_precision": 1.0,
+      "department_micro_recall": 1.0,
+      "department_micro_f1": 1.0,
+      "department_macro_precision": 0.4,
+      "department_macro_recall": 0.4,
+      "department_macro_f1": 0.4,
+      "department_exact_match_accuracy": 1.0,
+      "department_hamming_loss": 0.0,
+      "learned": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "Urgent": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "Emergency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.5,
+          "macro avg": {
+            "precision": 0.3333333333333333,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2222222222222222,
+            "support": 2.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "emergency_recall": null
+      },
+      "with_safety_rules": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "Urgent": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "Emergency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.5,
+          "macro avg": {
+            "precision": 0.3333333333333333,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2222222222222222,
+            "support": 2.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "emergency_recall": null
+      }
+    },
+    "Tanglish": {
+      "support": 2,
+      "department_micro_precision": 1.0,
+      "department_micro_recall": 1.0,
+      "department_micro_f1": 1.0,
+      "department_macro_precision": 0.4,
+      "department_macro_recall": 0.4,
+      "department_macro_f1": 0.4,
+      "department_exact_match_accuracy": 1.0,
+      "department_hamming_loss": 0.0,
+      "learned": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "Urgent": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "Emergency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.0,
+          "macro avg": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "weighted avg": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "emergency_recall": null
+      },
+      "with_safety_rules": {
+        "urgency_report": {
+          "Routine": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "Urgent": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "Emergency": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.5,
+          "macro avg": {
+            "precision": 0.3333333333333333,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2222222222222222,
+            "support": 2.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "emergency_recall": null
+      }
+    }
+  },
+  "department_confusion_matrices": {
+    "Electricity": [
+      [
+        16,
+        5
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "Roads": [
+      [
+        21,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "Sanitation": [
+      [
+        15,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "Waste Management": [
+      [
+        9,
+        0
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "Water Supply": [
+      [
+        17,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ]
+  },
+  "urgency_label_order": [
+    "Routine",
+    "Urgent",
+    "Emergency"
+  ],
+  "inference_latency_ms": {
+    "mean": 7.877100727372718,
+    "p95": 10.799436451088695,
+    "scope": "department + urgency + rules; excludes database, ASR, explanations and embedding retrieval"
+  },
+  "test_ids": [
+    "orig-001",
+    "orig-002",
+    "orig-014",
+    "orig-015",
+    "orig-016",
+    "orig-017",
+    "orig-019",
+    "orig-023",
+    "orig-025",
+    "orig-026",
+    "orig-032",
+    "orig-035",
+    "orig-036",
+    "orig-038",
+    "orig-048",
+    "orig-054",
+    "orig-060",
+    "orig-064",
+    "orig-068",
+    "orig-071",
+    "orig-072",
+    "orig-080"
+  ],
+  "warning": "Small supplied demo dataset; not real-world accuracy. Absent language/classes cannot be evaluated.",
+  "dataset_manifest": {
+    "seed": 42,
+    "train_ids": [
+      "orig-003",
+      "orig-004",
+      "orig-005",
+      "orig-006",
+      "orig-007",
+      "orig-008",
+      "orig-009",
+      "orig-010",
+      "orig-011",
+      "orig-012",
+      "orig-013",
+      "orig-018",
+      "orig-020",
+      "orig-021",
+      "orig-022",
+      "orig-024",
+      "orig-027",
+      "orig-028",
+      "orig-029",
+      "orig-030",
+      "orig-031",
+      "orig-033",
+      "orig-034",
+      "orig-037",
+      "orig-039",
+      "orig-040",
+      "orig-041",
+      "orig-042",
+      "orig-043",
+      "orig-044",
+      "orig-045",
+      "orig-046",
+      "orig-047",
+      "orig-049",
+      "orig-050",
+      "orig-051",
+      "orig-052",
+      "orig-053",
+      "orig-055",
+      "orig-056",
+      "orig-057",
+      "orig-058",
+      "orig-059",
+      "orig-061",
+      "orig-062",
+      "orig-063",
+      "orig-065",
+      "orig-066",
+      "orig-067",
+      "orig-069",
+      "orig-070",
+      "orig-073",
+      "orig-074",
+      "orig-075",
+      "orig-076",
+      "orig-077",
+      "orig-078",
+      "orig-079",
+      "orig-081",
+      "orig-082",
+      "orig-083",
+      "orig-084",
+      "orig-085",
+      "orig-086",
+      "orig-087"
+    ],
+    "test_ids": [
+      "orig-001",
+      "orig-002",
+      "orig-014",
+      "orig-015",
+      "orig-016",
+      "orig-017",
+      "orig-019",
+      "orig-023",
+      "orig-025",
+      "orig-026",
+      "orig-032",
+      "orig-035",
+      "orig-036",
+      "orig-038",
+      "orig-048",
+      "orig-054",
+      "orig-060",
+      "orig-064",
+      "orig-068",
+      "orig-071",
+      "orig-072",
+      "orig-080"
+    ],
+    "dataset_sha256": "43778a9fb6866382fd12ea8e0401d87593c679dde1b5da51d3ee87af82072442",
+    "grouping": "manual issue families; no paraphrase augmentation",
+    "synthetic_sha256": "cdec65ade00de79ad8ed726d996932c3bb16993789225241097c9cc756b5c55d",
+    "training_rows": 195,
+    "synthetic_rows": 130,
+    "test_sha256": "964abd5772fd13c173fba2ca80299377f209f8b1c46f5901dd78abc33d9859a3",
+    "evaluation_origin": "inherited demonstration holdout; not independent human evaluation"
+  }
+}

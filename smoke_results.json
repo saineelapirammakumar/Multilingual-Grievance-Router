@@ -1,0 +1,18 @@
+{
+  "backend_http_health": true,
+  "dashboard_http_health": true,
+  "view_checks": {
+    "Citizen grievance submission": "rendered without exception",
+    "Voice grievance upload": "rendered without exception",
+    "Complaint tracking": "rendered without exception",
+    "NLP prediction explanations": "rendered without exception"
+  },
+  "microphone_widget_rendered": true,
+  "dashboard_text_submission": true,
+  "dashboard_tracking": true,
+  "live_database_analytics": true,
+  "server_logs": {
+    "backend.log": "INFO:     Started server process [887731]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)\nINFO:     Shutting down\nINFO:     Waiting for application shutdown.\nINFO:     Application shutdown complete.\nINFO:     Finished server process [887731]\n",
+    "dashboard.log": "2026-10-11 08:11:41.201 Uvicorn server started on 127.0.0.1:8509\n\n  You can now view your Streamlit app in your browser.\n\n  URL: http://127.0.0.1:8509\n\n  Help agents write better Streamlit apps?\n  Install the official Streamlit skills by running streamlit skills in your terminal.\n\n  Detected WSL. Using poll-based file watching for better compatibility. To force watchdog, set server.fileWatcherType = \"watchdog\".\ngio: http://127.0.0.1:8509: Operation not supported\n  Stopping...\n"
+  }
+}

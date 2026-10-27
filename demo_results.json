@@ -1,0 +1,298 @@
+{
+  "kind": "synthetic functional demonstrations; not held-out evaluation",
+  "passed": 12,
+  "total": 12,
+  "results": [
+    {
+      "scenario": "electric_wire",
+      "expected": {
+        "scenario": "electric_wire",
+        "text": "A live electric wire has fallen near the school.",
+        "expected_departments": "Electricity",
+        "expected_urgency": "Emergency",
+        "expected_language": "English",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Electricity",
+          "Roads"
+        ],
+        "urgency": "Emergency",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "urgency": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "pipe_leak",
+      "expected": {
+        "scenario": "pipe_leak",
+        "text": "The water pipe is leaking outside our house.",
+        "expected_departments": "Water Supply",
+        "expected_urgency": "Urgent",
+        "expected_language": "English",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Water Supply"
+        ],
+        "urgency": "Urgent",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "urgency": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "damaged_road",
+      "expected": {
+        "scenario": "damaged_road",
+        "text": "Road has many potholes and needs repair.",
+        "expected_departments": "Roads",
+        "expected_urgency": "",
+        "expected_language": "English",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Roads"
+        ],
+        "urgency": "Routine",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "streetlight",
+      "expected": {
+        "scenario": "streetlight",
+        "text": "The street light is not working.",
+        "expected_departments": "Electricity",
+        "expected_urgency": "",
+        "expected_language": "English",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Electricity"
+        ],
+        "urgency": "Routine",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "tanglish_shortage",
+      "expected": {
+        "scenario": "tanglish_shortage",
+        "text": "street la water varala",
+        "expected_departments": "Water Supply",
+        "expected_urgency": "Urgent",
+        "expected_language": "Tanglish",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Water Supply"
+        ],
+        "urgency": "Urgent",
+        "detected_language": "Tanglish",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "urgency": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "tamil",
+      "expected": {
+        "scenario": "tamil",
+        "text": "குடிநீர் குழாய் கசிகிறது",
+        "expected_departments": "Water Supply",
+        "expected_urgency": "Urgent",
+        "expected_language": "Tamil",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Water Supply"
+        ],
+        "urgency": "Urgent",
+        "detected_language": "Tamil",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "urgency": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "hindi",
+      "expected": {
+        "scenario": "hindi",
+        "text": "पानी नहीं आ रहा",
+        "expected_departments": "Water Supply",
+        "expected_urgency": "",
+        "expected_language": "Hindi",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Water Supply"
+        ],
+        "urgency": "Urgent",
+        "detected_language": "Hindi",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "multiple_departments",
+      "expected": {
+        "scenario": "multiple_departments",
+        "text": "Pipeline burst and water is flooding the road",
+        "expected_departments": "Water Supply|Roads",
+        "expected_urgency": "",
+        "expected_language": "English",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Roads",
+          "Water Supply"
+        ],
+        "urgency": "Urgent",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "language": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "semantic_pair",
+      "expected": {
+        "scenario": "semantic_pair",
+        "text": "School pakkam water pipe leak aaguthu",
+        "expected_departments": "Water Supply",
+        "expected_urgency": "Urgent",
+        "expected_language": "Tanglish",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Water Supply"
+        ],
+        "urgency": "Urgent",
+        "detected_language": "Tanglish",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "urgency": true,
+        "language": true,
+        "duplicate_at_default_threshold": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "low_confidence",
+      "expected": {
+        "scenario": "low_confidence",
+        "text": "Something strange zzz qqq",
+        "expected_departments": "",
+        "expected_urgency": "",
+        "expected_language": "",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Electricity"
+        ],
+        "urgency": "Routine",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "review_required": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "ambiguous_location",
+      "expected": {
+        "scenario": "ambiguous_location",
+        "text": "Road needs repair near School Road and Lake Colony",
+        "expected_departments": "Roads",
+        "expected_urgency": "",
+        "expected_language": "",
+        "provenance": "synthetic_demo_not_evaluation"
+      },
+      "actual": {
+        "departments": [
+          "Roads"
+        ],
+        "urgency": "Emergency",
+        "detected_language": "English",
+        "review_required": true
+      },
+      "checks": {
+        "stored": true,
+        "departments": true,
+        "location_review": true
+      },
+      "passed": true
+    },
+    {
+      "scenario": "complete_workflow",
+      "http_codes": [
+        200,
+        200,
+        200
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "release": "CivicLens v3 - phases 2, 3 and 4",
+  "training_data": "65 inherited + 130 AI-authored synthetic",
+  "evaluation": "22 inherited hold-out; no independent human benchmark",
+  "default_model": "word + character TF-IDF / Logistic Regression",
+  "optional_models": "pinned downloads; weights deliberately excluded",
+  "test_report": "reports/v3_pytest.txt",
+  "neural_report": "reports/neural_api_results.json"
+}

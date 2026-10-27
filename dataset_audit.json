@@ -1,0 +1,195 @@
+{
+  "rows": 87,
+  "exact_duplicates": 0,
+  "missing_cells": {
+    "text": 0,
+    "departments": 0,
+    "urgency": 0
+  },
+  "label_counts": {
+    "Roads": 30,
+    "Electricity": 26,
+    "Sanitation": 25,
+    "Water Supply": 19,
+    "Waste Management": 15
+  },
+  "urgency_counts": {
+    "Urgent": 43,
+    "Emergency": 24,
+    "Routine": 20
+  },
+  "language_counts": {
+    "English": 54,
+    "Hinglish": 13,
+    "Tamil": 12,
+    "Tanglish": 8
+  },
+  "split_counts": {
+    "train": 65,
+    "test": 22
+  },
+  "cross_split_groups": [],
+  "annotation_flags": [
+    {
+      "row_id": "orig-001",
+      "group_id": "water_shortage",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-002",
+      "group_id": "water_shortage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-003",
+      "group_id": "pipe_leak",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-005",
+      "group_id": "pipe_leak",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-006",
+      "group_id": "road_damage",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-007",
+      "group_id": "road_damage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-008",
+      "group_id": "fallen_pole",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-009",
+      "group_id": "fallen_pole",
+      "urgency": "Emergency"
+    },
+    {
+      "row_id": "orig-019",
+      "group_id": "sewage_street",
+      "urgency": "Emergency"
+    },
+    {
+      "row_id": "orig-022",
+      "group_id": "drain_clean",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-023",
+      "group_id": "water_shortage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-024",
+      "group_id": "pipe_leak",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-027",
+      "group_id": "road_damage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-028",
+      "group_id": "fallen_pole",
+      "urgency": "Emergency"
+    },
+    {
+      "row_id": "orig-032",
+      "group_id": "sewage_street",
+      "urgency": "Emergency"
+    },
+    {
+      "row_id": "orig-036",
+      "group_id": "water_shortage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-037",
+      "group_id": "pipe_leak",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-039",
+      "group_id": "road_damage",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-040",
+      "group_id": "fallen_pole",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-047",
+      "group_id": "pipe_leak",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-048",
+      "group_id": "water_shortage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-049",
+      "group_id": "road_damage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-050",
+      "group_id": "fallen_pole",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-055",
+      "group_id": "pipe_leak",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-056",
+      "group_id": "fallen_pole",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-062",
+      "group_id": "road_damage",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-063",
+      "group_id": "drain_clean",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-072",
+      "group_id": "river_dump",
+      "urgency": "Emergency"
+    },
+    {
+      "row_id": "orig-081",
+      "group_id": "pipe_leak",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-083",
+      "group_id": "road_damage",
+      "urgency": "Routine"
+    },
+    {
+      "row_id": "orig-084",
+      "group_id": "road_damage",
+      "urgency": "Urgent"
+    },
+    {
+      "row_id": "orig-087",
+      "group_id": "fallen_pole",
+      "urgency": "Emergency"
+    }
+  ],
+  "limitations": "Manual group labels reduce obvious translation/paraphrase leakage; independent native-speaker adjudication and real held-out data are still needed."
+}

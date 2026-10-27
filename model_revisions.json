@@ -1,0 +1,5 @@
+{
+  "classifier": {"repo_id": "google/muril-base-cased", "revision": "afd9f36c7923d54e97903922ff1b260d091d202f"},
+  "duplicates": {"repo_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42"},
+  "asr": {"repo_id": "Systran/faster-whisper-tiny", "revision": "d90ca5fe260221311c53c58e660288d3deb8d356"}
+}

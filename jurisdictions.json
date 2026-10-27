@@ -1,0 +1,9 @@
+{
+  "demonstration_only": true,
+  "municipalities": {
+    "Demo Municipality": {
+      "1": {"areas": ["School Road", "Market Street"], "departments": ["Electricity", "Roads", "Sanitation", "Waste Management", "Water Supply"]},
+      "2": {"areas": ["Lake Colony"], "departments": ["Electricity", "Roads", "Sanitation", "Waste Management", "Water Supply"]}
+    }
+  }
+}
